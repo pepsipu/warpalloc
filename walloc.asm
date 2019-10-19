@@ -49,6 +49,7 @@ section .text
 
         ;--check_free_chunks--
         mov eax, [fbin]
+        mov ebx, fbin + 4
         .size_check_loop:
         test eax, eax
         je .check_wilderness ; if end of free chunks, then use space of wilderness
