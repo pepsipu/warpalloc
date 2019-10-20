@@ -21,3 +21,5 @@ extern void* walloc(int size);
 extern void prewalloc(int size);
 extern void wfree(void *ptr);
 ```
+
+Know that you *MUST* preallocating something, even if the preallocation is 0. It doesn't matter what you preallocate, since once the preallocated area ends, it will simply request more from the operating system, which can cost you time. You must preallocate before allocating or freeing.
