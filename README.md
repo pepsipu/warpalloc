@@ -7,6 +7,8 @@ Warpalloc is similar to ptmalloc, which you may know as "malloc", but much faste
 
 ![graph](https://i.imgur.com/p4gdW4D.png)
 
+You can test it yourself by running "benchmark.py".
+
 ### Sounds cool? How do I use it?
 Using Warpalloc is amazingly simple. Simply link the object file with your source file. For example, you can do this with gcc like so.
 
