@@ -9,7 +9,7 @@ Warpalloc is similar to ptmalloc, which you may know as "malloc", but much faste
 
 ![graph](https://i.imgur.com/p4gdW4D.png)
 
-It's likely ptmalloc will perform
+It's likely ptmalloc will perform better for programs that do thousands of allocations and frees, but for small programs, warpalloc kicks ass.
 You can test it yourself by running "benchmark.py".
 
 ### Sounds cool? How do I use it?
